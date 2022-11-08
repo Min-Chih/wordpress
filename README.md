@@ -9,3 +9,7 @@ A repository to record my journey of learning bulding a WordPress web.
 # Theme
 - Activated your own theme by putting your web folder in public_html/theme folder in Cyberduck
 - A wordpress theme needs: index.php and style.css
+- CSS might not applied, needs to add a Bloginfo() Template Tags for the CSS
+``` template tag
+<?php bloginfo('template_directory');?>
+```
