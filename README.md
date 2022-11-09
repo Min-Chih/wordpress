@@ -47,5 +47,28 @@ A repository to record my journey of learning bulding a WordPress web.
 <?php the_permalink(); ?>
 ```
 
+# CSS for your WordPress
+
+- Add the body_class(); on the open <body> tag. Like this:
+```
+<body <?php body_class(); ?>>
+```
+It generates lots of class helper classes for CSS styling later on. 
+- Also add these tags in the opening "div" classes and IDs like below:
+```
+<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+```
+It changes the output of our "div" from the static to the dynamic IDs and classes. This means (get excited) that you can target each individual post now with CSS/JS.
+
+
+
+
+
+
+
+
+
+
+
 
 
