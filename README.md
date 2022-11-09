@@ -42,5 +42,10 @@ A repository to record my journey of learning bulding a WordPress web.
 <?php the_autho(' ')r; ?>
 <?php the_time( 'l, F jS, Y' ); ?>
 ```
+- Permalinks: you can add permalink tag to any href if you want to link it to some pages
+```
+<?php the_permalink(); ?>
+```
+
 
 
