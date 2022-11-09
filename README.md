@@ -13,7 +13,7 @@ A repository to record my journey of learning bulding a WordPress web.
 ``` template tag
 <?php bloginfo('template_directory');?>
 ```
-- Able to dynamic change the web title and description by adding template tags for title
+- Able to dynamic change the web title and description by replacing title to template tags like below:
 ``` template tag title
 <?php bloginfo('name');?>
 ```
@@ -23,3 +23,14 @@ A repository to record my journey of learning bulding a WordPress web.
 # The Wordpress Loop
 - created a header.php, a footer.php, and a sidebar.php files
 - moved everything before main to header.php, things after main to footer.php, and things in the sidebar to sidebar.php file
+- added below first to tags below on index.php file, and sidebar tag in footer.php file
+```
+<?php get_header(); ?> 
+
+```
+```
+<?php get_footer(); ?> 
+```
+```
+<?php get_sidebar(); ?> 
+```
