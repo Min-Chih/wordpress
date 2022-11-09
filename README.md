@@ -20,3 +20,6 @@ A repository to record my journey of learning bulding a WordPress web.
 ``` template tag tagline
 <?php bloginfo('description');?>
 ```
+# The Wordpress Loop
+- created a header.php, a footer.php, and a sidebar.php files
+- moved everything before main to header.php, things after main to footer.php, and things in the sidebar to sidebar.php file
