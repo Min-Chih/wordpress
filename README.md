@@ -26,7 +26,6 @@ A repository to record my journey of learning bulding a WordPress web.
 - added below first to tags below on index.php file, and sidebar tag in footer.php file
 ```
 <?php get_header(); ?> 
-
 ```
 ```
 <?php get_footer(); ?> 
@@ -34,3 +33,14 @@ A repository to record my journey of learning bulding a WordPress web.
 ```
 <?php get_sidebar(); ?> 
 ```
+- through replacing title/content/author/time to template tags to make dynamic change on the wordpress theme
+```
+<?php the_title; ?>
+<?php the_content; ?>
+<?php the_excerpt; ?>
+<?php the_category; ?>
+<?php the_author; ?>
+<?php the_time( 'l, F jS, Y' ); ?>
+```
+
+
