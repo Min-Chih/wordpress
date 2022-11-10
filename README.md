@@ -60,7 +60,9 @@ It generates lots of class helper classes for CSS styling later on.
 ```
 It changes the output of our "div" from the static to the dynamic IDs and classes. This means (get excited) that you can target each individual post now with CSS/JS.
 
-
+# Template Hierarchy
+- You can use different file name to overwrite specific page you want to customise
+- For more info, visit (here)[https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post]
 
 
 
