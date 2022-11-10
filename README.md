@@ -69,6 +69,13 @@ It changes the output of our "div" from the static to the dynamic IDs and classe
 ```
 <?comments_template( '', true );;?>
 ```
+# SideBar
+- Create a function.php file
+- added below code in the file
+```
+<?php register_sidebar(); ?>
+```
+- and now you can customise your sidebar on wordpress admin page
 
 
 
