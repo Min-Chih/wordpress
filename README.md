@@ -62,7 +62,7 @@ It changes the output of our "div" from the static to the dynamic IDs and classe
 
 # Template Hierarchy
 - You can use different file name to overwrite specific page you want to customise
-- For more info, visit (here)[https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post]
+- For more info, visit [WordPress Single Post](https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post)
 
 
 
