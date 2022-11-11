@@ -107,6 +107,12 @@ register_nav_menu('main', 'Main navigation menu');
 <?php wp_nav_menu( $args );?>
 ```
 
+# Advanced theming
+- Edit this post tag
+```
+<?php edit_post_link(__('Edit This Post'));?>
+```
+
 
 
 
