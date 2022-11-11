@@ -96,10 +96,12 @@ It changes the output of our "div" from the static to the dynamic IDs and classe
 ```
 
 # Navigation Menu
+	
 - you can add a nav menu for your web by registering your nav menu first in function.php
 ```
 register_nav_menu('main', 'Main navigation menu');
 ```
+
 - and replace the hardcode <ul> in header.php file to code below
 ```
 <?php wp_nav_menu( $args );?>
