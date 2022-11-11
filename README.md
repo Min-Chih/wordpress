@@ -76,6 +76,24 @@ It changes the output of our "div" from the static to the dynamic IDs and classe
 <?php register_sidebar(); ?>
 ```
 - and now you can customise your sidebar on wordpress admin page
+- you can add new widgets to your sidebar by adding the below code in your file
+```
+  /* add this in function.php */
+  <?php $args = array(
+	'name'          => __( 'Sidebar name', 'theme_text_domain' ),
+	'id'            => 'unique-sidebar-id',
+	'description'   => '',
+        'class'         => '',
+	'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	'after_widget'  => '</li>',
+	'before_title'  => '<h2 class="widgettitle">',
+	'after_title'   => '</h2>' ); ?>
+```
+```
+/* add this in sidebar.php */
+<?php if ( ! dynamic_sidebar('RenPower Sidebar') ) : ?>
+<?php endif; ?>
+```
 
 
 
