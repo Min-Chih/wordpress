@@ -102,7 +102,7 @@ It changes the output of our "div" from the static to the dynamic IDs and classe
 register_nav_menu('main', 'Main navigation menu');
 ```
 
-- and replace the hardcode "<ul>" in header.php file to code below
+- and replace the hardcode "ul and li tags" in header.php file to code below
 ```
 <?php wp_nav_menu( $args );?>
 ```
