@@ -112,6 +112,15 @@ register_nav_menu('main', 'Main navigation menu');
 ```
 <?php edit_post_link(__('Edit This Post'));?>
 ```
+- Allowed Plugins: added below codes to two files
+``` 
+/* add this to header.php */
+<?php wp_head(); ?>
+```
+``` 
+/* add this to footer.php */
+<?php wp_footer(); ?>
+```
 
 
 
