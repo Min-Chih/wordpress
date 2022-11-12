@@ -121,7 +121,7 @@ register_nav_menu('main', 'Main navigation menu');
 /* add this to footer.php */
 <?php wp_footer(); ?>
 ```
-
+- you can now install plugins through the admin page
 
 
 
