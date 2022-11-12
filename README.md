@@ -123,6 +123,10 @@ register_nav_menu('main', 'Main navigation menu');
 ```
 - you can now install plugins through the admin page
 
+# Useful Plugins
+- [Advanced Custom Field](https://www.advancedcustomfields.com/)
+- [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/)
+
 
 
 
